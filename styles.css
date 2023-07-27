@@ -54,6 +54,14 @@ p {
 span {
     font-size: 0.8rem;
 }
+h2{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+}
 
 footer {
     text-align: right;
