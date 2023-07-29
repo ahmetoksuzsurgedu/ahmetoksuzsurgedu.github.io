@@ -42,6 +42,7 @@ body {
     justify-content: center;
 }
 
+
 h1 {
     font-size: 4rem;
     color: var(--bcw);
@@ -70,9 +71,9 @@ footer {
 }
 
 #projects {
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
 
