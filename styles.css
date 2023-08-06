@@ -69,6 +69,18 @@ footer {
     font-size: 0.8rem;
 
 }
+.prj-groups {
+    display: flex;
+    min-width: 400px;
+    aspect-ratio: 1;
+    flex-direction: column;
+    border: 2px solid blue;
+    justify-content:center ;
+}
+.prj-groups * {
+    display: flex;
+    flex-direction: column;
+}
 
 #projects {
     /* height: 50vh; */
