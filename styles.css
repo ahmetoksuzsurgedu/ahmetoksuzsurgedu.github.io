@@ -61,6 +61,7 @@ h2{
 
 img {
     width: 100%;
+    max-width: 400px;
     padding: 20px;
 }
 
@@ -69,13 +70,21 @@ footer {
     font-size: 0.8rem;
 
 }
+.allprojects {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
 .prj-groups {
     display: flex;
     min-width: 400px;
+    max-width: 400px;
     aspect-ratio: 1;
     flex-direction: column;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content:center ;
+    gap: 20px;
 }
 .prj-groups * {
     display: flex;
