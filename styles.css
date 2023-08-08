@@ -32,7 +32,12 @@ body {
     color: var(--bcw);
     border-radius: 10%;
 }
-
+#navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 5px 0;
+    gap: 10px;
+}
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -70,7 +75,7 @@ footer {
     font-size: 0.8rem;
 
 }
-.allprojects {
+#allprojects {
 display: flex;
 flex-wrap: wrap;
 align-items: center;
