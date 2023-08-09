@@ -38,6 +38,12 @@ body {
     padding: 5px 0;
     gap: 10px;
 }
+#navbar ul ul {
+    display: none;
+}
+#navbar ul li:hover > ul {
+    display: block;
+}
 #welcome-section {
     display: flex;
     flex-direction: column;
