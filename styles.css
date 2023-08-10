@@ -47,7 +47,7 @@ body {
 #welcome-section {
     display: flex;
     flex-direction: column;
-    height: 100vw;
+    height: 50vh;
     background-color: var(--fcm);
     text-align: center;
     justify-content: center;
@@ -70,7 +70,7 @@ h2{
     text-align: center;
 }
 
-img {
+imgDDD {
     width: 100%;
     max-width: 400px;
     padding: 20px;
@@ -103,9 +103,7 @@ justify-content: center;
 }
 
 #projects {
-    /* height: 50vh; */
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
 
@@ -134,7 +132,7 @@ justify-content: center;
 @media only screen and (max-width:600px) {
     
 h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--bcw);
 }
 
@@ -142,4 +140,13 @@ p {
     font-size: 1rem;
     color: var(--bcw);
 }
+h2{
+    font-size: 1rem;
+}
+img {
+    max-width: 300px;
+    padding: 10px;
+    align-self: center;
+}
+
 }
