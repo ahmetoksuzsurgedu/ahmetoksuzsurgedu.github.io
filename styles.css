@@ -24,6 +24,7 @@ body {
     justify-content: flex-end;
     gap: 20px;
     padding: 10px;
+    margin-right: 50px;
 }
 #navbar a {
     text-decoration: none;
@@ -36,13 +37,23 @@ body {
     list-style: none;
     display: flex;
     padding: 5px 0;
-    gap: 10px;
+    gap: 25px;
 }
 #navbar ul ul {
     display: none;
 }
 #navbar ul li:hover > ul {
-    display: block;
+    display:block;
+    position: absolute;
+    /* align-items: center; */
+}
+#navbar ul li:hover > ul li {
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    padding: 5px 1px;
+}
+#navbar ul li:hover > ul li:hover {
+    border-bottom: solid 3px var(--bcw);
 }
 #welcome-section {
     display: flex;
@@ -70,10 +81,12 @@ h2{
     text-align: center;
 }
 
-imgDDD {
+img {
     width: 100%;
+    /* aspect-ratio: 2; */
+    object-fit: cover;
     max-width: 400px;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
