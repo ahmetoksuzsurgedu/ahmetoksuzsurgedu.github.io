@@ -85,7 +85,6 @@ h2{
 
 img {
     width: 100%;
-    /* aspect-ratio: 2; */
     object-fit: cover;
     max-width: 400px;
     padding: 10px;
@@ -147,6 +146,10 @@ justify-content: center;
     color: var(--fcm);
 }
 
+@media only screen and (min-width:900px) {
+
+}
+
 @media only screen and (max-width:600px) {
     
 h1 {
@@ -163,8 +166,10 @@ h2{
 }
 img {
     max-width: 300px;
+    object-fit: cover;
     padding: 10px;
     align-self: center;
+    border-radius: 25%;
 }
 
 }
