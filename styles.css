@@ -36,8 +36,8 @@ body {
 #navbar ul {
     list-style: none;
     display: flex;
-    padding: 5px 0;
-    gap: 25px;
+    /* padding: 5px 0; */
+    column-gap: 25px;
 }
 #navbar ul ul {
     display: none;
@@ -45,12 +45,12 @@ body {
 #navbar ul li:hover > ul {
     display:block;
     position: absolute;
-    /* align-items: center; */
 }
 #navbar ul li:hover > ul li {
     font-size: 0.9rem;
     line-height: 1.25rem;
-    padding: 5px 1px;
+    margin-top: 3px;
+    padding: 3px 0;
 }
 #navbar ul li:hover > ul li:hover {
     border-bottom: solid 3px var(--bcw);
